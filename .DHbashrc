@@ -8,6 +8,5 @@ alias gpl="git pull"
 alias gps="git push"
 
 #Dir
-alias cd1="cd /d/SWRDC_teamfile_D/"
-alias cdBook="cd /d/SWRDC_teamfile_D/Courses/MVC_Bhrugen/QuirkyBookRentalGithub/"
+alias cd1="cd /d/Getac/"
 
