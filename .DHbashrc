@@ -10,3 +10,5 @@ alias gps="git push"
 
 #Dir
 alias cd1="cd /d/Getac/"
+alias cdCourse="cd /d/Getac/Course/"
+alias cdBashrc="dc /d/Self/Personalization/WorkBashrc/"
