@@ -13,5 +13,5 @@ alias cdProject="cd /d/Projects/"
 alias cdBashrc="cd /c/Users/user/WorkBashrc"
 
 #shell command
-alias ll="ls -lAp"
+alias ll="ls -1Ap"
 
