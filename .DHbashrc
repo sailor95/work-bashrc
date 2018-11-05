@@ -16,3 +16,6 @@ alias cdCourse="cd /d/Getac/Course/"
 alias cdBashrc="cd /d/Self/Personalization/WorkBashrc/"
 alias cdIRSA="cd /d/Getac/IRSA/"
 alias cdCusomerPortal="cd /d/Getac/IRSA/Customer\ Portal"
+
+#Bash
+alias ll="ls -l --color=auto"
