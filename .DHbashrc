@@ -14,8 +14,8 @@ alias gdcache="git diff --cached"
 alias cd1="cd /d/Getac/"
 alias cdCourse="cd /d/Getac/Course/"
 alias cdBashrc="cd /d/Self/Personalization/WorkBashrc/"
-alias cdIRSA="cd /d/Getac/IRSA/"
-alias cdCusomerPortal="cd /d/Getac/IRSA/Customer\ Portal"
+alias cdGetac="cd /d/Getac/"
+alias cdCP="cd /d/Getac/CP"
 
 #Bash
 alias ll="ls -la --color=auto"
