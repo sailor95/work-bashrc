@@ -11,6 +11,7 @@ alias gd="git diff"
 alias gdcache="git diff --cached"
 
 #Dir
+alias cdGetac="cd /d/Getac/"
 alias cdProject="cd /d/Projects/"
 alias cdBashrc="cd /c/Users/user/WorkBashrc"
 
