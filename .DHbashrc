@@ -9,6 +9,5 @@ alias gpl="git pull"
 alias gps="git push"
 
 #Dir
-#alias cd1="cd /d/SWRDC_teamfile_D/"
-#alias cdCourse="cd /d/SWRDC_teamfile_D/Courses/"
-#alias cdBashrc="cd /d/SWRDC_teamfile_D/PersonalEnvironmentSetting/"
+alias cdProject="cd /d/Projects/"
+alias cdBashrc="cd /d/Self/WorkBashrc/"
