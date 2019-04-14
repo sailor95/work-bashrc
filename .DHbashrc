@@ -10,6 +10,11 @@ alias gps="git push"
 alias gd="git diff"
 alias gdcache="git diff --cached"
 
+#[.gitconfig]
+#co = checkout
+#add-commit = !git add -A && git commit
+
+
 #Dir
 alias cdGetac="cd /d/Getac/"
 alias cdProject="cd /d/Projects/"
