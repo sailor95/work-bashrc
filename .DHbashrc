@@ -16,9 +16,8 @@ alias gdcache="git diff --cached"
 
 
 #Dir
-alias cdGetac="cd /d/Getac/"
-alias cdProject="cd /d/Projects/"
-alias cdBashrc="cd /c/Users/user/WorkBashrc"
+alias cdProject="cd /c/Users/bugma/Projects"
+alias cdBashrc="cd /c/Users/bugma/Projects/work-bashrc"
 
 #shell command
 alias ll="ls -1Ap"
