@@ -11,14 +11,17 @@ alias gd="git diff"
 alias gdcache="git diff --cached"
 
 #[.gitconfig]
-#co = checkout
-#add-commit = !git add -A && git commit
+#git config --global alias.co checkout
+#git config --global alias.add-commit '!git add -A && git commit'
 
 
 #Dir
-alias cdProject="cd /c/Users/bugma/Projects"
-alias cdBashrc="cd /c/Users/bugma/Projects/work-bashrc"
+alias cdProjects="cd /Users/davehuang/Documents/company/projects"
 
 #shell command
 alias ll="ls -1Ap"
 
+function parse_git_branch {
+   git branch --no-color 2> /dev/null | sed -e '/^[^*]/d' -e 's/* \(.*\)/(\1)/'
+}
+PS1="\[\e[0;92m\]\u\[\e[0m\] @\h \[\e[0;93m\]\w\[\e[0m\] \[\e[0;96m\]\$(parse_git_branch)\[\e[0m\] \\$ "
