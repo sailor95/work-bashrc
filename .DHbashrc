@@ -9,9 +9,15 @@ alias gpl="git pull"
 alias gps="git push"
 
 #Dir
+<<<<<<< HEAD
 alias cdProject="cd /d/Projects/"
 alias cdBashrc="cd /c/Users/user/WorkBashrc"
 
 #shell command
 alias ll="ls -lAp"
 
+=======
+alias cd1="cd /d/SWRDC_teamfile_D/"
+alias cdCourse="cd /d/SWRDC_teamfile_D/Courses/"
+alias cdBashrc="cd /d/SWRDC_teamfile_D/PersonalEnvironmentSetting/"
+>>>>>>> b50f459d38be56e298b7bca09d44352ea70dfcd4
