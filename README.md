@@ -7,3 +7,8 @@ Setup notes
 > cd ~
 > touch .bash_profile # Source .bashrc here
 > touch .bashrc
+
+### Troubleshooting
+
+- Not able to auto-complete in mac's terminal: https://stackoverflow.com/questions/30958195/mac-terminal-auto-complete
+- Not able to install global npm: https://flaviocopes.com/npm-fix-missing-write-access-error/
