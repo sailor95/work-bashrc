@@ -1,0 +1,6 @@
+# This is for auto complete on mac's terminal bash
+set completion-ignore-case on
+set show-all-if-unmodified on
+#set show-all-if-ambiguous on
+
+#TAB: menu-complete
