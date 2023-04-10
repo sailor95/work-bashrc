@@ -4,7 +4,7 @@ Setup notes
 
 ## Setup Mac
 
-```
+```sh
 cd ~
 touch .bash_profile // Source .bashrc here
 touch .bashrc
