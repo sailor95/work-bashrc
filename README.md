@@ -6,7 +6,7 @@ Setup notes
 
 ```
 cd ~
-touch .bash_profile # Source .bashrc here
+touch .bash_profile // Source .bashrc here
 touch .bashrc
 ```
 
