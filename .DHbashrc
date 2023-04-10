@@ -18,6 +18,7 @@ alias gdcache="git diff --cached"
 alias cdProjects="cd /Users/dave/self/projects"
 alias cdSelf="cd /Users/dave/self"
 alias cdCompanyProjects="cd /Users/dave/company/projects"
+alias codeNotes="code /Users/dave/company/doc"
 
 # Shell Related
 alias ll="ls -1Ap"
