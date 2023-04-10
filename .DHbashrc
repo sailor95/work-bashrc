@@ -1,4 +1,4 @@
-#Git
+# Git Related
 alias gs="git status"
 alias gshowfile="git diff-tree --no-commit-id --name-only -r" #add commit hash after.
 alias gb="git branch"
@@ -7,10 +7,22 @@ alias gl1="git log --graph --abbrev-commit --decorate --format=format:'%C(bold b
 alias gl10="git log --graph --abbrev-commit --decorate --format=format:'%C(bold blue)%h%C(reset) - %C(bold cyan)%aD%C(reset) %C(bold green)(%ar)%C(reset)%C(bold yellow)%d%C(reset)%n''          %C(white)%s%C(reset) %C(dim white)- %an%C(reset)' --all -10"
 alias gpl="git pull"
 alias gps="git push"
+alias gd="git diff"
+alias gdcache="git diff --cached"
 
-#Dir
-alias cdProject="cd /d/Projects/"
-alias cdBashrc="cd /c/Users/user/WorkBashrc"
+# [.gitconfig] manually enter the following commands in terminal
+# git config --global alias.co checkout
+# git config --global alias.add-commit '!git add -A && git commit'
 
-#shell command
-alias ll="ls -lAp"
+# Dir Related (varies according to device)
+alias cdProjects="cd /Users/dave/self/projects"
+alias cdSelf="cd /Users/dave/self"
+# alias cdMono="cd /Users/davehuang/Documents/company/projects/mono"
+
+# Shell Related
+alias ll="ls -1Ap"
+
+function parse_git_branch {
+   git branch --no-color 2> /dev/null | sed -e '/^[^*]/d' -e 's/* \(.*\)/(\1)/'
+}
+PS1="\[\e[0;92m\]\u\[\e[0m\] @\h \[\e[0;93m\]\w\[\e[0m\] \[\e[0;96m\]\$(parse_git_branch)\[\e[0m\] \\$ "
