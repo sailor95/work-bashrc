@@ -1,6 +1,6 @@
 # My Bash Config
 
-Setup notes
+Setup notes, use README on the master branch as the single source of truth.
 
 ## Setup for Mac
 
