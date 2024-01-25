@@ -15,14 +15,16 @@ alias gdcache="git diff --cached"
 #add-commit = !git add -A && git commit
 
 
-#Dir
-alias cdGetac="cd /d/Getac/"
+# Dir
 alias cdProject="cd /d/Projects/"
 alias cdBashrc="cd /c/Users/user/WorkBashrc"
 
-#shell command
+# Shell command
 alias ll="ls -1Ap"
 
-## AWS
+# AWS
 alias aws="winpty /C/Program\ Files/Amazon/AWSCLIV2/aws.exe"
 alias py="winpty python.exe"
+
+# NGINX
+alias nginx="/C/nginx-1.25.3/nginx.exe"
