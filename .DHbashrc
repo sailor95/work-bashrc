@@ -18,6 +18,7 @@ alias gdcache="git diff --cached"
 # Dir
 alias cdProject="cd /d/_Projects/"
 alias cdBashrc="cd /c/Users/bugma/WorkBashrc"
+alias cdNginx="cd /c/nginx-1.25.3"
 
 # Shell command
 alias ll="ls -1Ap"
@@ -25,6 +26,3 @@ alias ll="ls -1Ap"
 # AWS
 alias aws="winpty /C/Program\ Files/Amazon/AWSCLIV2/aws.exe"
 alias py="winpty python.exe"
-
-# NGINX
-alias nginx="/C/nginx-1.25.3/nginx.exe"
