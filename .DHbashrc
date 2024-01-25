@@ -17,7 +17,7 @@ alias gdcache="git diff --cached"
 
 # Dir
 alias cdProject="cd /d/_Projects/"
-alias cdBashrc="cd /c/Users/user/WorkBashrc"
+alias cdBashrc="cd /c/Users/bugma/WorkBashrc"
 
 # Shell command
 alias ll="ls -1Ap"
