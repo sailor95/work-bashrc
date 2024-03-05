@@ -16,6 +16,7 @@ alias gdcache="git diff --cached"
 
 # Dir Related (varies according to device)
 alias cdProjects="cd /Users/dave/self/projects"
+alias cdHustle="cd /Users/dave/self/projects/hustle"
 alias cdSelf="cd /Users/dave/self"
 alias cdCompanyProjects="cd /Users/dave/company/projects"
 alias codeNotes="code /Users/dave/company/doc"
