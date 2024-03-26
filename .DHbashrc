@@ -15,10 +15,10 @@ alias gdcache="git diff --cached"
 # git config --global alias.add-commit '!git add -A && git commit'
 
 # Dir Related (varies according to device)
-alias cdProjects="cd /Users/dave/self/projects"
-alias cdSelf="cd /Users/dave/self"
-alias cdCompanyProjects="cd /Users/dave/company/projects"
-alias codeNotes="code /Users/dave/company/doc"
+alias cdProjects="cd /Users/user/self/projects"
+alias cdSelf="cd /Users/user/self"
+alias cdCompanyProjects="cd /Users/user/company/projects"
+# alias codeNotes="code /Users/user/company/doc"
 
 # Shell Related
 alias ll="ls -1Ap"
