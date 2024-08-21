@@ -9,6 +9,7 @@ alias gpl="git pull"
 alias gps="git push"
 alias gd="git diff"
 alias gdcache="git diff --cached"
+alias gfa="git fetch -a"
 
 # [.gitconfig] manually enter the following commands in terminal
 # git config --global alias.co checkout
