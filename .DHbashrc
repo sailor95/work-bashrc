@@ -30,11 +30,6 @@ function parse_git_branch {
 }
 PS1="\[\e[0;92m\]\u \[\e[0;93m\]\w\[\e[0m\] \[\e[0;96m\]\$(parse_git_branch)\[\e[0m\] \\$ "
 
-conditional_asdf() {
-  if [ ! -f "$PWD/.tool-versions" ]; then
-    export PATH=`echo $PATH | sed -E 's/(.*)\.asdf([^:]*)://'`
-  else
-    export PATH="${HOME}/.asdf/shims:${HOME}/.asdf/bin:${PATH}"
-  fi
-}
-PROMPT_COMMAND="conditional_asdf; $PROMPT_COMMAND"
+# ASDF
+. "$HOME/.asdf/asdf.sh"
+. "$HOME/.asdf/completions/asdf.bash"
