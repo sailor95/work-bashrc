@@ -31,5 +31,10 @@ function parse_git_branch {
 PS1="\[\e[0;92m\]\u \[\e[0;93m\]\w\[\e[0m\] \[\e[0;96m\]\$(parse_git_branch)\[\e[0m\] \\$ "
 
 # ASDF
-. "$HOME/.asdf/asdf.sh"
-. "$HOME/.asdf/completions/asdf.bash"
+. $HOME/.asdf/asdf.sh
+. $HOME/.asdf/completions/asdf.bash
+export GEM_HOME="$HOME/.gem"
+export PATH="$HOME/.asdf/shims:$GEM_HOME/bin:$PATH"
+
+# Homebrew
+export HOMEBREW_NO_INSTALL_ROSETTA=1
