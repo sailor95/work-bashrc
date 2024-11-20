@@ -24,17 +24,12 @@ alias cdHustleProjects="cd /Users/user/hustle/projects"
 
 # Shell Related
 alias ll="ls -1Ap"
+export LC_ALL=zh_TW.UTF-8
 
 function parse_git_branch {
    git branch --no-color 2> /dev/null | sed -e '/^[^*]/d' -e 's/* \(.*\)/(\1)/'
 }
 PS1="\[\e[0;92m\]\u \[\e[0;93m\]\w\[\e[0m\] \[\e[0;96m\]\$(parse_git_branch)\[\e[0m\] \\$ "
-
-# ASDF
-. $HOME/.asdf/asdf.sh
-. $HOME/.asdf/completions/asdf.bash
-export GEM_HOME="$HOME/.gem"
-export PATH="$HOME/.asdf/shims:$GEM_HOME/bin:$PATH"
 
 # Homebrew
 export HOMEBREW_NO_INSTALL_ROSETTA=1
