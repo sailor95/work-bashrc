@@ -29,7 +29,16 @@ export LC_ALL=zh_TW.UTF-8
 function parse_git_branch {
    git branch --no-color 2> /dev/null | sed -e '/^[^*]/d' -e 's/* \(.*\)/(\1)/'
 }
-PS1="\[\e[0;92m\]\u \[\e[0;93m\]\w\[\e[0m\] \[\e[0;96m\]\$(parse_git_branch)\[\e[0m\] \\$ "
+
+# Get Python virtual env name
+function get_virtual_env {
+    if [[ -n "$VIRTUAL_ENV" ]]; then
+        echo "($(basename $VIRTUAL_ENV)) "
+    fi
+}
+
+# Modified PS1 to include virtual env before username
+PS1="\[\e[0m\]\$(get_virtual_env)\[\e[0;92m\]\u \[\e[0;93m\]\w\[\e[0m\] \[\e[0;96m\]\$(parse_git_branch)\[\e[0m\] \\$ "
 
 # Homebrew
 export HOMEBREW_NO_INSTALL_ROSETTA=1
