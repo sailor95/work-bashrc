@@ -26,12 +26,8 @@ alias ll="ls -1Ap"
 
 # AWS
 alias aws="winpty /C/Program\ Files/Amazon/AWSCLIV2/aws.exe"
-alias py="winpty python.exe"
+# alias py="winpty python.exe"
 
 ## Sqlite
 
 alias sqlite3="winpty /C/sqlite/sqlite3.exe"
-
-## rbenv
-
-eval "$(rbenv init -)"
