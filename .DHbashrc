@@ -26,6 +26,9 @@ alias cdHustleProjects="cd /Users/user/hustle/projects"
 alias ll="ls -1Ap"
 export LC_ALL=zh_TW.UTF-8
 
+# Python Related
+alias p="poetry"
+
 function parse_git_branch {
    git branch --no-color 2> /dev/null | sed -e '/^[^*]/d' -e 's/* \(.*\)/(\1)/'
 }
