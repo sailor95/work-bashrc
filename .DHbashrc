@@ -19,8 +19,6 @@ alias gfa="git fetch -a"
 alias cdProjects="cd /Users/user/self/projects"
 alias cdSelf="cd /Users/user/self"
 alias cdHustleProjects="cd /Users/user/hustle/projects"
-# alias cdHookedProjects="cd /Users/user/hooked/projects"
-# alias codeNotes="code /Users/user/company/doc"
 
 # Shell Related
 alias ll="ls -1Ap"
@@ -28,6 +26,9 @@ export LC_ALL=zh_TW.UTF-8
 
 # Python Related
 alias p="poetry"
+
+# IDE Related
+alias c="cursor"
 
 function parse_git_branch {
    git branch --no-color 2> /dev/null | sed -e '/^[^*]/d' -e 's/* \(.*\)/(\1)/'
