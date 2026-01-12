@@ -20,6 +20,9 @@ alias cdProjects="cd /Users/user/self/projects"
 alias cdSelf="cd /Users/user/self"
 alias cdHustleProjects="cd /Users/user/hustle/projects"
 
+# Project Related
+alias pp="/Users/user/self/projects/peak-pal-fe/scripts/start-dev.sh"
+
 # Shell Related
 alias ll="ls -1Ap"
 export LC_ALL=zh_TW.UTF-8
