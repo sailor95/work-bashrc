@@ -21,7 +21,7 @@ alias cdSelf="cd /Users/user/self"
 alias cdHustleProjects="cd /Users/user/hustle/projects"
 
 # Project Related
-alias pp="/Users/user/self/projects/peak-pal-fe/scripts/start-dev.sh"
+alias pp="/Users/user/self/projects/peak-pals-dev-root/peak-pal-fe/scripts/start-dev.sh"
 
 # Shell Related
 alias ll="ls -1Ap"
